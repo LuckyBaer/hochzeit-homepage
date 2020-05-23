@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-115aaf2cbfe8cf27f2c5.js"
+    "url": "webpack-runtime-363c60d238b068c403ab.js"
   },
   {
-    "url": "framework-9fa3c3527bf76bdd7ce7.js"
+    "url": "framework-53a02ca17ab0e083345b.js"
   },
   {
-    "url": "app-9e283dfc0cd93eab91c4.js"
+    "url": "app-cc2c22e9915cee05f9ff.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d2ce36d7c5d9bad8166d4392ea8c0757"
+    "revision": "0e82f3f3200ee148a2c7bd95293bcd64"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-01b3f85b4acdf44ec1f7.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -48,11 +48,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "40cd83d44aaf04e38e852745b57a976d"
+    "revision": "fba98843b2ac0df50675f6bcb27e89fa"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "12b4a3a635191ec99b4b2d96ea5e3233"
+    "revision": "2edef9a10606f1a173cc38122c6241e1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -145,7 +145,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hochzeit-homepage/app-9e283dfc0cd93eab91c4.js`))) {
+  if (!resources || !(await caches.match(`/hochzeit-homepage/app-cc2c22e9915cee05f9ff.js`))) {
     return await fetch(event.request)
   }
 
