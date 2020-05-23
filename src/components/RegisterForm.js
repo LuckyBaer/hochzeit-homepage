@@ -59,7 +59,6 @@ const RegisterForm = () => {
                     </li>
                 </ul>
             </div>
-
         </div>
     )
 };

@@ -1,5 +1,5 @@
 import React from 'react'
-import pic04 from '../assets/images/pic04.jpg'
+import Kirche from '../assets/images/Kirche.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -7,30 +7,23 @@ const Three = props => (
   <section
     id="three"
     className="spotlight style3 left inactive"
-    style={{ backgroundImage: `url(${pic04})` }}
+    style={{ backgroundImage: `url(${Kirche})` }}
   >
     <span className="image fit main bottom">
-      <img src={pic04} alt="" />
+      <img src={Kirche} alt="" />
     </span>
     <Fade left big>
       <div className="content">
         <header>
-          <h2>Interdum felis blandit praesent sed augue</h2>
-          <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+          <h2>Tagesablauf</h2>
         </header>
-        <p>
-          Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
-        </p>
-        <ul className="actions">
-          <li>
-            <a href="/" className="button">
-              Learn More
-            </a>
-          </li>
-        </ul>
+          <ul>
+            <li>13:00 Uhr - Trauung Bergkirche</li>
+            <li>14:00 Uhr - Gruppenbild vor der Bergkirche</li>
+            <li>15:00 Uhr - Stehempfang beim Naturfreundehaus</li>
+            <li>16:30 Uhr - Beziehen der Zimmer</li>
+            <li>18:00 Uhr - Abendessen</li>
+          </ul>
       </div>
     </Fade>
     <ScrollLink

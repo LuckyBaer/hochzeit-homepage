@@ -6,11 +6,11 @@ const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>The future has landed</h2>
+        <h2>Wir heiraten!</h2>
         <p>
-          And there are no hoverboards or flying cars.
+          Bei allem, was ihr tut, lasset euch von der Liebe leiten.
           <br />
-          Just apps. Lots of mother flipping apps.
+          1. Korinther 16, 14.
         </p>
       </header>
       <span className="image">

@@ -15,14 +15,10 @@ const Layout = ({ children, ...props }) => (
             menuLinks {
               name
               link
-              cl
+              name
               items {
                 link
                 name
-                items {
-                  link
-                  name
-                }
               }
             }
           }

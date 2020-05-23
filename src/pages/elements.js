@@ -596,7 +596,7 @@ const Elements = props => (
           <h4>Left &amp; Right</h4>
           <p>
             <span className="image left">
-              <img src={pic08} alt="" />
+              <img src={pic03} alt="" />
             </span>
             Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
             sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
@@ -622,7 +622,7 @@ const Elements = props => (
           </p>
           <p>
             <span className="image right">
-              <img src={pic08} alt="" />
+              <img src={pic03} alt="" />
             </span>
             Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
             sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
