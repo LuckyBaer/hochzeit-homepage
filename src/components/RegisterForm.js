@@ -48,6 +48,17 @@ const RegisterForm = () => {
                 />
                 <label htmlFor="priority-low">Nein, ich/wir können nicht kommen</label>
             </div>
+            <div className="col-12">
+                <ul className="actions">
+                    <li>
+                        <input
+                            type="submit"
+                            value="Anmeldung senden"
+                            className="primary"
+                        />
+                    </li>
+                </ul>
+            </div>
 
         </div>
     )
