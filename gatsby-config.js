@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/hochzeit-homepage",
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
     title: 'Bianca und Elias Bauer, 12.12.2020',
